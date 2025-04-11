@@ -1,12 +1,13 @@
-from flask import Flask, request, jsonify
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'  # ⛔ disables GPU to avoid CUDA errors
 
+from flask import Flask, request, jsonify
 import tensorflow as tf
 import numpy as np
 import cv2
-import os
 from flask_cors import CORS
+import os
+
 
 app = Flask(__name__)
 CORS(app)  # allow requests from frontend
