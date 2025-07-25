@@ -50,25 +50,22 @@ Edit
 ```bash
 git clone https://github.com/yourusername/cow-breed-backend.git
 cd cow-breed-backend
+```
 2. Create a Virtual Environment
-bash
-Copy
-Edit
+```bash
 python -m venv venv
 source venv/bin/activate        # Linux/macOS
 venv\Scripts\activate.bat       # Windows
+```
 3. Install Dependencies
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 4. Run the Backend Server
-bash
-Copy
-Edit
+```bash
 python app.py
 The API will be available at http://127.0.0.1:5000/
-
+```
 📷 Sample API Usage
 🔹 POST /predict
 Description: Upload a cow image and get predicted breed.
@@ -81,13 +78,12 @@ file: Image file of cow
 
 Response:
 
-json
-Copy
-Edit
+```json
 {
   "breed": "Gir",
   "confidence": 0.93
 }
+```
 🧠 Model Details
 Trained using: CNN / SVM
 
@@ -106,10 +102,9 @@ Classification based on visual features
 🧪 Testing
 You can use tools like Postman or cURL to test the API:
 
-bash
-Copy
-Edit
+```bash
 curl -X POST -F "file=@images/test_cow.jpg" http://127.0.0.1:5000/predict
+```
 📦 Deployment
 You can deploy this backend using:
 
@@ -138,10 +133,9 @@ Public cow image datasets
 
 ML research on livestock classification
 
-yaml
-Copy
-Edit
+```yaml
 
 ---
 
 Let me know if you want a **Dockerfile**, **requirements.txt**, or **example code** for `app.py` or `predict.py`.
+```
