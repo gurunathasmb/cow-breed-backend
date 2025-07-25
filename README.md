@@ -119,9 +119,9 @@ Add Dockerfile and Procfile if needed.
 📬 Contact
 For questions or feedback:
 
-Email: yourname@example.com
+Email: gurunathagoudambiradar@gmail.com
 
-LinkedIn: Your Name
+LinkedIn: https://www.linkedin.com/in/gurunathasmb/
 
 📄 License
 This project is licensed under the MIT License.
